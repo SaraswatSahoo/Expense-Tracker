@@ -1,0 +1,11 @@
+node_modules/
+dist/
+src/generated/
+
+# Local secrets (.env.example is committed instead)
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
